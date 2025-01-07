@@ -1,4 +1,6 @@
 
+//leetcode  217
+
     function hasDuplicate(nums) {
         i=0
         j=1
@@ -20,7 +22,7 @@
     }
 
 
-    console.log(undefined==undefined);
+console.log(hasDuplicate([3,2,4,1]))
 
 
 

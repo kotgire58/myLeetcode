@@ -8,11 +8,10 @@ var maxArea = function(height) {
         if(height[j]>secondmaxheight&&height[j]<maxheight){secondmaxheight=height[j]}
 
     }
-    return height[i]*height[j]
+    return maxheight
     
 
-    console.log(maxheight)
-    console.log(secondmaxheight)
+   
     
 };
 console.log(maxArea([1,2,3,4,5]))
