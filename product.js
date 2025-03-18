@@ -1,6 +1,5 @@
 function product(nums){
 let result=[]
-let prod
 for(i=0;i<nums.length;i++){
         
     newarr=nums.filter((_,index)=>i!=index)
